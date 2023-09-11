@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7273B45C-9855-4EB2-65D1-15460C21BF28" name="CLIENTE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:16:51 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1D743223-5F1C-609D-F5C5-1999DBD6ED2C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:21:29 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="E620F3D6-1EF6-2650-BDFD-073AEEFE5D42">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:22:40 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="0AFFBEB8-210D-9281-064A-830F07B1B97C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:24:23 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="C1931454-809F-80D4-E87C-2768E0BB6702">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:26:00 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="E326768A-C732-6BD1-0CAC-1F45F71E9BB5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:26:43 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="7C3C953F-B2AF-D368-B04B-2546CD840D14">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:27:31 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DEB0BC3-D967-15B3-3178-1EB6304D3AB5" name="CLIENTE PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-09-11 11:22:16 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="1185236A-7F59-0C24-342D-9263BD701824" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D743223-5F1C-609D-F5C5-1999DBD6ED2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
